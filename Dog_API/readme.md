@@ -1,6 +1,7 @@
 # Fetch API in JavaScript
 
 -  Fetch ကို သုံး မယ် ဆို ရင် ပ ထမ ဦ ဆုံး ကို ခေါ် ချင် တယ် URL ကို variable တစ် ခု ထည့် မှာ သိမ်း ထား လိုက် ပါ
+
 ``` var url = 'url_link'; ```
 -    data တွေ့ ကို ခေါ် ချင် URL ကို သုံး ပြီး fetch () သုံး ပြီး လုပ် ပါ
 
