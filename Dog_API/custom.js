@@ -6,7 +6,6 @@ const doggos = document.querySelector(".container");
 promise
   .then(function(response) {
     const processingPromise = response.json();
-    console.log(processingPromise);
     return processingPromise;
     // console.log(processingPromise);
   })
