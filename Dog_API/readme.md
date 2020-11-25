@@ -4,14 +4,14 @@
 ` var url = 'url_link'; `
 -    data တွေ့ ကို ခေါ် ချင် URL ကို သုံး ပြီး fetch () သုံး ပြီး လုပ် ပါ
 <br>
-` var promise = fetch(url);
+`  var promise = fetch(url);
 `
 <br>
 - အ ခု ရ လာ သော data က promise အ နေ ရ လာ မှာ ပါ အဲ့ ရ လာ တယ် data ကို  promise ကို သုံး ပြီး JSON type ‌ပြောင်း ဖို့ လို ပါ တယ်
 
 <br>
 `
-  then(function (response){
+     then(function (response){
      var data = response.json();
      return data;
 
@@ -23,9 +23,9 @@
 - JSON type ရ လာ သော data ကို ကို က views အ နေ နဲ့ ပြ ချင် ရင် 
 <br>
 `
-  .then(function (data){
-  const img = document.createElement("img");
-  ခေါ် ပြီး သုံး လို ရ ပါ။   တယ်
+   .then(function (data){
+   const img = document.createElement("img");
+   ခေါ် ပြီး သုံး လို ရ ပါ။   တယ်
 `
 <br>
 
